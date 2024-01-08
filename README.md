@@ -8,4 +8,5 @@ Nintendo Game Boy (GB), part of [GameDB](https://github.com/niemasd/GameDB).
 * **[`GB.titles.json`](https://github.com/niemasd/GameDB-GB/releases/latest/download/GB.titles.json):** Mapping of serial numbers to game titles, structured in the JSON format
 
 # Sources
+* [Game Boy Database](https://www.game-boy-database.com/)
 * [VGCollect](https://www.vgcollect.com/)
