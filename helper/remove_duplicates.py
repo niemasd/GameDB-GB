@@ -10,7 +10,7 @@ if __name__ == "__main__":
     folders = set(glob('*'))
     to_delete = set()
     for folder in folders:
-        if folder.endswith('-1') and folder[:-2] in folders:
+        if (folder.endswith('-1') or folder.endswith('-2')) and folder[:-2] in folders:
             to_delete.add(folder)
     if len(to_delete) == 0:
         print("No duplicate folders detected"); exit()
