@@ -20,6 +20,8 @@ REGION = {
     'ITA': 'PAL',
     'JPN': 'NTSC-J',
     'KOR': 'NTSC-J',
+    'NEAI': 'PAL',
+    'NEU6': 'PAL',
     'NOE': 'PAL',
     'SCN': 'PAL',
     'TWN': 'NTSC-J',
@@ -33,6 +35,6 @@ if __name__ == "__main__":
         region_file = '%s/region.txt' % folder
         if not isfile(region_file):
             tmp = folder.split('-')[-1].strip().upper()
-            if len(tmp) == 3:
+            if len(tmp) in {3,4}:
                 region = REGION[tmp]
                 f = open(region_file, 'w'); f.write('%s\n' % region); f.close()
