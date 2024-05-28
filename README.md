@@ -24,3 +24,6 @@ INTERNAL_TITLE.....GLOBAL_CHECKSUM
 
 * Whitespace in the internal title is stripped
 * Special characters in the internal title are replaced with `_`
+
+# Sources
+* [No-Intro](https://no-intro.org/)
