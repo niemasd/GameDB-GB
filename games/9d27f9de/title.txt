@@ -1,1 +1,1 @@
-World Cup USA 94
+World Cup USA 94 (En,Fr,De,Es,It,Nl,Pt,Sv)
